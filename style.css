@@ -3,6 +3,7 @@
 
 * {
   font-size: 20px;
+  background-color: lightblue;
   p::first-letter {
     font-weight: bold;
   }
@@ -28,8 +29,9 @@
   /* text transform will capitalize all the content inside the element */
   text-transform: uppercase;
   /* text shadow helps to give shadow to the content */
-  text-shadow: 2px 2px rgb(125, 122, 122);
+  text-shadow: 2px 2px rgb(244, 239, 239);
   font-family: "Henny Penny", system-ui;
+  font-size: 20ox;
 }
 footer {
   font-family: "Henny Penny", system-ui;
