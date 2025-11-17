@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+
+* {
+  font-size: 20px;
+  p::first-letter {
+    font-weight: bold;
+  }
+}
+#main-title {
+  text-align: center;
+  color: darkblue;
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.intro-para {
+  font-style: italic;
+  height: 1.5;
+  /* google font is used here  */
+  font-family: "Pacifico", cursive;
+}
+.content-para {
+  /* google font is used here  */
+  font-family: "Pacifico", cursive;
+}
+.color-box {
+  /* text transform will capitalize all the content inside the element */
+  text-transform: uppercase;
+  /* text shadow helps to give shadow to the content */
+  text-shadow: 2px 2px rgb(125, 122, 122);
+  font-family: "Henny Penny", system-ui;
+}
+footer {
+  font-family: "Henny Penny", system-ui;
+}
